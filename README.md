@@ -32,10 +32,7 @@ Each column = examination result or lifestyle factor
 ## 🧮 Processing & Features
 
 - **BMI & Overweight:**  
-  A new column `overweight` is added:  
-  \[
-  \text{BMI} = \frac{\text{weight (kg)}}{(\text{height (m)})^2}
-  \]  
+  A new column `overweight` is added:   
   If BMI > 25, set `overweight = 1`; else `0`.
 
 - **Normalization of values:**
